@@ -1,0 +1,12 @@
+.input-group-addon{
+    min-width: 150px;
+}
+#header{
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+    float: none;
+}
+.error {background-color:#FFCCCC;  padding: .2em; color:red}
+.attr {color:red}

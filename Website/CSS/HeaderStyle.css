@@ -1,0 +1,30 @@
+html{
+    background-image: url("../Images/app_hex.png");
+    /*background-color: #6f74dd;*/   /*Primary*/
+    background-color: #E2E4FCFF;     /*Light*/
+    /*background-color: #ffffff;*/   /*white*/
+    /*background-color: #16172f;*/       /*Dark*/
+
+}
+body{
+
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    background-image: url("../Images/app_bg Icons.png");
+    background-size: contain;
+    background-repeat: repeat-x;
+}
+header{
+    color: white;
+}
+header a{
+    color: white;
+}
+.main_h
+{
+    background: #171a21;
+    width: 100%;
+
+    border-bottom: solid #c99ee8;
+}

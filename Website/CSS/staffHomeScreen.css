@@ -1,0 +1,129 @@
+/* *
+{
+margin: 0; padding: 0;box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+}
+body{
+    width: 100%; height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.1));
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+nav{
+    width: 100%; height: 15vh;
+    backgroud: black;
+    color: white; display: flex; justify-content: space-between;
+    align-items: center; text-transform: uppercase;
+}
+.animate__animated.animate__heartBeat
+{
+    --animate-duration: 2s;
+}
+
+nav .logo{
+    width: 100%; text-align: center;
+}
+@media (max-width: 100px) {
+    section {
+        -webkit-flex-direction: column;
+        flex-direction: column;
+    }
+}*/
+/* Container for flexboxes */
+/*
+section {
+    display: block;
+
+}
+*/
+/* Style the navigation menu
+nav {
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    background: #ccc;
+    padding: 20px;
+}
+*/
+/* Style the list inside the menu*/
+
+table, th, td {
+    border: 1px solid white;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+}
+th, td {
+    padding: 15px;
+    text-align: left;
+}
+#Results tr:nth-child(even) {
+    background-color: white;
+}
+#Results tr:nth-child(odd) {
+    background-color: #f8f6ff;
+}
+#Results th {
+    background-color: #1A237E;
+    color: white;
+}
+.input-group-addon{
+    min-width: 150px;
+}
+/*#header{
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+    float: none;
+}*/
+
+.error {background-color:#FFCCCC;  padding: .2em; color:red}
+.attr {color:red}
+
+
+.tableFixHead {
+    overflow-y: auto;
+    height: 106px;
+}
+.tableFixHead th {
+    position: sticky;
+    top: 0;
+}
+.tableFixHead th::after{
+    content: '';
+    width: 100%;
+    height: 2px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: black;
+
+}
+/*
+.scroll {
+    overflow-x:hidden;
+    overflow-y: scroll;
+    width: auto;
+    height:auto;
+
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+th,
+td {
+    padding: 8px 16px;
+    border: 1px solid #ccc;
+}
+th {
+    background: #eee;
+}
+
+ */
+.navbar-nav {
+    margin-left: auto;
+}
